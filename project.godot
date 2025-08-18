@@ -1,0 +1,22 @@
+config_version=5
+
+[application]
+config/name="FNAF-FEAR"
+run/main_scene="res://scenes/MainMenu.tscn"
+config/features=PackedStringArray("4.0")
+boot_splash/show_image=false
+
+[autoload]
+Globals="*res://scripts/Globals.gd"
+
+[input]
+ui_accept={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 16777221 }, { "type": "key", "scancode": 16777222 } ] }
+ui_cancel={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 16777217 } ] }
+flash={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 70 } ] }
+mask={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 77 } ] }
+cam_toggle={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 67 } ] }
+door_left={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 65 } ] }
+door_right={ "deadzone": 0.5, "events": [ { "type": "key", "scancode": 68 } ] }
+
+[rendering]
+renderer/rendering_method="mobile"
