@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Title" type="Label" parent="."]
+margin_left = 200
+margin_top = 100
+text = "FNAF-FEAR"
+align = 1
+valign
