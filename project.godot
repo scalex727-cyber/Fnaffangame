@@ -2,7 +2,7 @@ config_version=5
 
 [application]
 config/name="FNAF-FEAR"
-run/main_scene="res://scenes/MainMenu.tscn"
+run/main_scene="res://MainMenu.tscn"
 config/features=PackedStringArray("4.0")
 boot_splash/show_image=false
 
